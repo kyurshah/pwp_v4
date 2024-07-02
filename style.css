@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* COMMONS */
+
+body {
+    font-family: Noto Sans;
+    font-size: 16px;
+    background-color: #e4ddc1;
+
+}
+
+h1 {
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+section,
+footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+
+/* HEADER */
+
+section.header img {
+    max-width: 160px;
+    border-radius: 50%;
+}
+
+/* LINKS */
+section.links .link-item {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+
+section.links .link-item a {
+    display: block;
+    width: 100%;
+    border: 1px #000 solid;
+    padding: 16px 0px;
+    text-align: center;
+    color: #000;
+    border-radius: 180px;
+    box-shadow: 4px 4px rgb(0, 0, 0);
+    background-color: #e2d7a7;
+}
+
+section.links .link-item a:hover {
+    background-color: #e2d28a;
+}
+
+/* FOOTER */
+footer a {
+    color: rgb(0, 0, 0);
+}
+
