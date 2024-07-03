@@ -5,8 +5,7 @@
 body {
     font-family: Noto Sans, sans-serif;
     font-size: 16px;
-    background-color: #e4ddc1;
-
+    background-color: #e4ddc1 ;
 }
 
 h1 {
@@ -20,7 +19,7 @@ a {
 section {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 400px;
     align-items: center;
     margin: auto;
     margin-bottom: 20px;
@@ -32,7 +31,7 @@ section {
 
 section.header img {
     max-width: 160px;
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 /* LINKS */
