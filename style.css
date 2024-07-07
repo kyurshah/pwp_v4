@@ -6,20 +6,32 @@
 /* DARK THEME */
 
 :root {
-    --primary-color: #e4ddc1;
+    /* --primary-color: #e4ddc1;
     --secondary-color: #e2d7a7;
     --font-color: #000;
     --box-shadow: #000;
     --hover-color: #e2d28a;
+    --icon-hover-color: #000; */
+    --primary-color: #D8F3DC;
+    --secondary-color: #95D5B2;
+    --font-color: #081C15;
+    --box-shadow: #081C15;
+    --hover-color: #B7E4C7;
     --icon-hover-color: #000;
 }
 
 .dark-theme {
-    --primary-color: #565656;
+    /* --primary-color: #565656;
     --secondary-color: #46725a;
     --font-color: #e3e2e2;
     --box-shadow: #373737;
     --hover-color: #8ce0b2;
+    --icon-hover-color: #e3c748; */
+    --primary-color: #081C15;
+    --secondary-color: #2D6A4F;
+    --font-color: #D8F3DC;
+    --box-shadow: #D8F3DC;
+    --hover-color: #1B4332;
     --icon-hover-color: #e3c748;
 }
 
@@ -32,6 +44,8 @@
     cursor: pointer;
     flex: 1;
     padding: 1em;
+
+
 }
 
 nav #icon:active {
@@ -96,5 +110,5 @@ section.links .link-item a {
 
 section.links .link-item a:hover {
     background-color: var(--hover-color);
-    color: #000;
+    color: var(--font-color);
 }
