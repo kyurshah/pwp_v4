@@ -32,11 +32,9 @@
     cursor: pointer;
     flex: 1;
     padding: 1em;
-
-
 }
 
-nav #icon:hover {
+nav #icon:active {
     border-radius: 50%;
     background-color: var(--icon-hover-color);
 }
